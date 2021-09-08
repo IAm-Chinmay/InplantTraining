@@ -7,19 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration</title>
   <link rel="stylesheet" href="Registration.css">
+  
 </head>
 
 <body>
   <div class="navbar">
     <a href="LandingPage1.html">Home</a>
-    <a href="#news">News</a>
+    <a href="About.html">About</a>
     <div class="dropdown">
       <button class="dropbtn">Activity
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#">Login</a>
-        <a href="#">Subsidy</a>
+        <a href="Login.html">Login</a>
+        <a href="Subsidy.html">Subsidy</a>
       </div>
     </div>
     <div class="Title">
@@ -41,7 +42,7 @@
       entry field*</h4>
     <h3>Request for new Connection</h3>
 
-    <form action="#"  >
+    <form action="Login.html">
       <div class="Personal_Details">
         <h3 id="blue">1) Personal Details </h3>
         <label> Salutation:</label>
@@ -54,7 +55,7 @@
         <label> First Name*:</label><input type="text" required><br>
         <label> Middle Name*:</label><input type="text" required><br>
         <label> Last Name*:</label><input type="text" required><br>
-        <label> Gas Consumer Number*:</label><input type="text" required><br>
+        <label> Gas Consumer Number*:</label><input type="text" id="gasConsumerNumber_register" required><br>
         <label> Date Of Birth*:</label><input type="date" required>
       </div><br><br>
 
@@ -76,7 +77,7 @@
         <label>State*</label><input type="text" required>
         <label>District:*</label><input type="text" required>
         <label>Pin Code:*</label><input type="text" required>
-        <label>Mobile No*:</label><input type="text" required>
+        <label>Mobile No*:</label><input type="text" id="mobileConsumer_register" required>
         <label>Email Id:</label><input type="text">
         <br>
         <br>
@@ -113,8 +114,9 @@
       and guidelines
       and may initiate legal action applicable under provisions.
       <br><br>
- 
+       
       <input type="submit" value="Submit" id="submit_btn"><br>
+      
   </form>
 </div>
 

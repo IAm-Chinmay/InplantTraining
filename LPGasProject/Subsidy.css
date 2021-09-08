@@ -1,12 +1,13 @@
 body{
-    background-color:whitesmoke; 
+    background-color:whitesmoke;
+    overflow:scroll;
 }
  
 /* Navbar container */
 .navbar {
-  overflow: hidden;
+    overflow: hidden;
     background-color: #333;
-    font-family: Arial;  
+    font-family: Arial; 
   }
   
   /* Links inside the navbar */
@@ -72,76 +73,35 @@ body{
     display: block;
   }
 
+  .login_page>h3{
+       background-color: rgb(196, 193, 214);
+       color: #f10f0f;
+       text-align: center;
+       font-size: 22px;
+       border-radius: 12px;
+  }
+
   .Title{
-     color:red;
-     text-align: right;
-     padding-right: 3vw; 
+    color:red;
+    text-align: right;
+    padding-right: 3vw; 
+    
 
-  }
-
-  .registration_title{
-      text-align: center;
-      text-decoration: underline;
-      color:rgb(255, 0, 0);
-      font-variant: small-caps;
-      font-size: large;
-      text-decoration-color: darkblue;
-      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-  .Form{
-     text-align: center; 
-
-  }
-
-  .Form>h3{
-    color: blue;
-  }
-
-  #blue{
-    text-align: left;
-    background-color: rgb(127, 187, 255);
-    padding-left: 2vw;
-    border-radius: 1vw;
-  }
-
-  .Personal_Details {
-    text-align: left;
-  }
-
- .Address_Information{
-   text-align: left;
+ } 
+ 
+ .Subsidy_Title{
+     text-align: center;
+     background-color: aquamarine;
  }
 
-.Other_Details {
-  text-align: left;
-}
+ #parts{
+     text-align: center;
+     text-decoration: underline;
+     padding-bottom: 20px;
+     padding-top: 10px;
+ }
 
-label{
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: left; /*Change to right here if you want it close to the inputs*/
-}
-input { 
-  float: left;
-}
- 
- #submit_btn{
-  
-  background-color: rgb(127, 178, 255);
-   padding: 1vh;
+ #submit{
+   text-align: center;
     
-}
-
-#meta-data{
-  padding-left: 3vw;
-}
- 
-  
-#registration_bottom_nav{
-  text-align: center;
-  text-decoration: underline; 
-}
-
- 
+ }
